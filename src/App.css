@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --third-color: #161616;
+  --fourth-color: #262626;
+}
+
+.light-theme {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --third-color: #e7e7e7;
+  --fourth-color: #e7e7e7;
+}
+
+body {
+  background: var(--primary-color) no-repeat;
+  background-size: cover;
+}
+
+* {
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
