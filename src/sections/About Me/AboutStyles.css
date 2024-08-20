@@ -1,0 +1,70 @@
+.information {
+  margin: 0px;
+  padding: 0px;
+}
+
+.center-align {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0px;
+  margin-bottom: 50px;
+  color: var(--text-color);
+  font-size: 40px;
+}
+
+.desc {
+  margin: 0px;
+  margin-left: 350px;
+  margin-right: 350px;
+  text-align: center;
+  color: var(--text-color);
+  letter-spacing: 1.5px;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.tabs {
+  margin: 0px;
+  padding: 0px;
+}
+
+.t {
+  margin: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.tab-contents {
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+.active-tab {
+  display: block;
+}
+
+.tab-title {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.skills-content {
+  margin: 0px;
+  padding: 0px;
+}
+
+.skills-content li {
+  list-style: none;
+  margin-top: 10px;
+  color: var(--text-color);
+}

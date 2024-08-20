@@ -1,0 +1,87 @@
+/* Global styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: cover;
+}
+
+/* Main styles */
+main {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section info styles */
+section.info {
+  margin: 0;
+  padding: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 1.5px;
+}
+
+/* Profile picture styles */
+.pfp {
+  border-radius: 50%;
+  border: 6px solid var(--secondary-color);
+  width: 40%;
+  object-fit: cover;
+  box-shadow: var(--secondary-color) 0px 0px 90px;
+}
+
+/* Intro section styles */
+.intro {
+  color: var(--text-color);
+  margin-left: 200px;
+  line-height: 35px;
+  padding-bottom: 5%;
+}
+
+/* Description styles */
+.description {
+  margin: 0;
+  padding: 0;
+}
+
+.description .hi {
+  font-size: 25px;
+  padding-bottom: 5%;
+  padding-top: 17%;
+}
+
+.description .name {
+  font-size: 40px;
+  padding-bottom: 5%;
+  color: var(--secondary-color);
+}
+
+/* Social media icons styles */
+.hero-icons {
+  padding-top: 4%;
+}
+
+.hero-icons a {
+  background: transparent;
+  text-decoration: none;
+  margin: 40px 15px 50px 0;
+  transition: 0.5s;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.hero-icons i {
+  display: inline-block;
+  text-rendering: auto;
+  /* webkitfontsmoothing: antialiased; */
+  font-family: boxicons;
+}

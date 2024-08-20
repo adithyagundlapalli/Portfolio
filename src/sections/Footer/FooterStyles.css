@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--form-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+}
