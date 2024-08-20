@@ -14,44 +14,21 @@ function Nav() {
   return (
     
     <>
-      <header id="header">
-        <a href="#home">
-          <img
-            className="logo"
-            alt="logo"
-            src="https://adithyagundlapalli.github.io/personalportfolio/img/logo.png"
-          />
+      <header className="header">
+
+      <a className="title" href="#home">
+          ADITHYA
         </a>
-        <nav>
-          <ul id="sidemenu" className="menu">
-            <li>
-              <a href="#home">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a href="#about">
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio">
-                PORTFOLIO
-              </a>
-            </li>
-            <li>
-              <a href="#contact">
-                CONTACT
-              </a>
-            </li>
-            <i className="bx bxs-chevron-down" />
-            <img
-              id="theme-icon"
-              src={themeIcon}
-              onClick={toggleTheme}
-            />
-          </ul>
-          <i id="menubtn" className="bx bx-menu" />
+        
+        <nav className="navbar">
+
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#contact">CONTACT</a>
+          <img id="theme-icon" src={themeIcon} onClick={toggleTheme}/>
+
+    
         </nav>
       </header>
     </>

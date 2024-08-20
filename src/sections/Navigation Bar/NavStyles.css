@@ -1,69 +1,56 @@
-/* Header styles */
-#header {
-  margin: 0;
-  padding: 20px 200px;
-  background: var(--nav-color);
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  padding: 20px 10%;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  letter-spacing: 5px;
 }
 
-/* Logo styles */
-.logo {
-  border-radius: 50px;
-  width: 50%;
-  cursor: pointer;
+.title {
+  font-size: 32px;
+  color: var(--text-color);
+  font-weight: 700;
+  text-decoration: none;
 }
 
-/* Nav styles */
-nav {
-  margin: 0;
-  padding: 0;
-}
-
-ul.menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul.menu li {
-  margin: 0;
-  padding: 0 20px;
-  display: inline-block;
+.navbar a {
+  position: relative;
   font-size: 18px;
   color: var(--text-color);
   font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
 }
 
-ul.menu li a {
-  margin: 0;
-  padding: 0;
-  transition: 0.3s;
-  text-decoration: none;
-  color: var(--text-color);
+.navbar a:last-child {
+  margin-right: 0; /* Remove right margin from the last item */
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color);
+  transition: 0.4s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
 }
 
 /* Theme icon styles */
 #theme-icon {
-  margin-left: 280px;
+  position: absolute;
+  top: 25px;
+  margin-left: 50px;
   width: 30px;
   cursor: pointer;
-}
-
-/* Menu button styles */
-#menubtn {
-  display: none;
-  color: var(--text-color);
-}
-
-.bx.bxs-chevron-down {
-  display: none;
-  color: var(--text-color);
 }
