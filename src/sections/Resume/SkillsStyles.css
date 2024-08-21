@@ -1,0 +1,52 @@
+.skills-container {
+  color: rgb(255, 255, 255);
+}
+
+.software-skills-main-div {
+  text-align: center;
+}
+
+.dev-icons {
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.software-skill-inline i {
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  color: rgb(134, 142, 150);
+}
+
+.software-skill-inline p {
+  color: rgb(134, 142, 150);
+  font-size: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: normal;
+}
+
+body {
+  scroll-behavior: smooth;
+  font: 19px / 23px Montserrat, sans-serif;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  line-height: normal;
+}

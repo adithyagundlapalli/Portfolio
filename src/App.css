@@ -1,7 +1,7 @@
 :root {
   --background-color: #000;
   --nav-color: #161616;
-  --project-card-bg: #fff;
+  --project-card-bg: #262626;
   --text-color: #fff;
   --secondary-color: #003893;
   --form-color: #262626;
@@ -10,7 +10,7 @@
 [data-theme="light"] {
   --background-color: #fff;
   --nav-color: #e7e7e7;
-  --project-card-bg: #ffffff00;
+  --project-card-bg: #e7e7e7;
   --text-color: #000;
   --secondary-color: #003893;
   --form-color: #e7e7e7;
