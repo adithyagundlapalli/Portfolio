@@ -32,7 +32,7 @@ export default function Resume() {
       <div className="list-container">
         <ul className="resume-list">
           <li
-            className="resume-item active-link" // Make sure the default tab has the active-link class
+            className="resume-item active-link" 
             onClick={(e) => opentab(e, "education")}
           >
             Education

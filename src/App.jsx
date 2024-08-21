@@ -18,6 +18,7 @@ function App() {
       <Contact></Contact>
       <Footer></Footer>
     </>
+
   )
 }
 
