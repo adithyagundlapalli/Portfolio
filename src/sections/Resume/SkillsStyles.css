@@ -21,10 +21,6 @@
   margin-right: 20px;
 }
 
-.software-skill-inline i:hover {
-  color: var(--secondary-color);
-}
-
 .software-skill-inline i {
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
@@ -35,22 +31,67 @@
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
   color: rgb(134, 142, 150);
+  transition: color 0.3s ease;
 }
 
 .software-skill-inline p {
   color: rgb(134, 142, 150);
   font-size: 20px;
+  transition: color 0.3s ease;
 }
 
-html {
-  scroll-behavior: smooth;
-  line-height: normal;
+/* Specific icon hover effects */
+.software-skill-inline.html:hover i,
+.software-skill-inline.html:hover p {
+  color: #e34f26; /* HTML - Orange */
 }
 
-body {
-  scroll-behavior: smooth;
-  font: 19px / 23px Montserrat, sans-serif;
-  margin: 0px;
-  -webkit-font-smoothing: antialiased;
-  line-height: normal;
+.software-skill-inline.css:hover i,
+.software-skill-inline.css:hover p {
+  color: #1572b6; /* CSS - Blue */
+}
+
+.software-skill-inline.js:hover i,
+.software-skill-inline.js:hover p {
+  color: #f7df1e; /* JavaScript - Yellow */
+}
+
+.software-skill-inline.jq:hover i,
+.software-skill-inline.jq:hover p {
+  color: #0769ad; /* jQuery - Blue */
+}
+
+.software-skill-inline.react:hover i,
+.software-skill-inline.react:hover p {
+  color: #61dafb; /* React - Cyan */
+}
+
+.software-skill-inline.python:hover i,
+.software-skill-inline.python:hover p {
+  color: #3776ab; /* Python - Blue */
+}
+
+.software-skill-inline.node:hover i,
+.software-skill-inline.node:hover p {
+  color: #339933; /* Node.js - Green */
+}
+
+.software-skill-inline.java:hover i,
+.software-skill-inline.java:hover p {
+  color: #007396; /* Java - Blue */
+}
+
+.software-skill-inline.cplus:hover i,
+.software-skill-inline.cplus:hover p {
+  color: #00599c; /* C/C++ - Blue */
+}
+
+.software-skill-inline.git:hover i,
+.software-skill-inline.git:hover p {
+  color: #f05032; /* Git - Red */
+}
+
+.software-skill-inline.github:hover i,
+.software-skill-inline.github:hover p {
+  color: #6e5494; /* GitHub - Purple */
 }

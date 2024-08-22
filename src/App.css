@@ -5,6 +5,7 @@
   --text-color: #fff;
   --secondary-color: #003893;
   --form-color: #262626;
+  --card-color: #08112b;
 }
 
 [data-theme="light"] {
@@ -14,12 +15,13 @@
   --text-color: #000;
   --secondary-color: #003893;
   --form-color: #e7e7e7;
+  --card-color: #08112b;
 }
 
 body {
   background: var(--background-color) no-repeat;
   background-size: cover;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   margin: 0 auto 60px;
 }

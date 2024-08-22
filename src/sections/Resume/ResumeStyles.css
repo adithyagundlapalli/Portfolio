@@ -4,7 +4,8 @@
   gap: 2rem;
   padding: 2rem 0;
   color: var(--text-color);
-  margin: 0 200px;
+  margin: 0 2rem;
+  margin-top: 2.2rem;
 }
 
 .resume-header {
@@ -37,7 +38,6 @@
   display: grid;
   width: 100%;
   grid-template-columns: repeat(4, minmax(0px, 1fr));
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -72,4 +72,25 @@
 
 .active-tab {
   display: block;
+}
+
+@media (min-width: 768px) {
+  .resume-item {
+    height: 5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-section {
+    margin: 0 200px;
+    padding: 2rem 0;
+  }
 }

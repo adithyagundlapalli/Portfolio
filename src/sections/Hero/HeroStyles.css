@@ -21,67 +21,108 @@ main {
 /* Section info styles */
 section.info {
   margin: 0;
-  padding: 15%;
+  padding: 10%;
+  margin-top: 5rem; /* Added margin to avoid overlapping with the navbar */
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
   letter-spacing: 1.5px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  section.info {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 10% 15%;
+    margin-top: 7rem; /* Adjusted margin for larger screens */
+  }
 }
 
 /* Profile picture styles */
 .pfp {
   border-radius: 50%;
   border: 6px solid var(--secondary-color);
-  width: 40%;
+  width: 80%;
+  max-width: 250px;
   object-fit: cover;
   box-shadow: var(--secondary-color) 0px 0px 90px;
+}
+
+@media (min-width: 768px) {
+  .pfp {
+    width: 40%;
+    max-width: 300px;
+  }
 }
 
 /* Intro section styles */
 .intro {
   color: var(--text-color);
-  margin-left: 200px;
-  line-height: 35px;
+  margin-top: 2rem;
+  line-height: 1.5;
   padding-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
 }
 
 /* Description styles */
-.description {
-  margin: 0;
-  padding: 0;
-}
-
 .description .hi {
-  font-size: 25px;
-  padding-bottom: 5%;
-  padding-top: 17%;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
 
 .description .name {
-  font-size: 40px;
-  padding-bottom: 5%;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
   color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  .description .hi {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+
+  .description .name {
+    font-size: 3rem;
+  }
 }
 
 /* Social media icons styles */
 .hero-icons {
-  padding-top: 4%;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .hero-icons {
+    justify-content: flex-start;
+  }
 }
 
 .hero-icons a {
   background: transparent;
   text-decoration: none;
-  margin: 40px 15px 50px 0;
+  margin: 1rem;
   transition: 0.5s;
   width: 50px;
   height: 50px;
-  font-size: 25px;
+  font-size: 2rem;
   color: var(--text-color);
 }
 
 .hero-icons i {
   display: inline-block;
   text-rendering: auto;
-  /* webkitfontsmoothing: antialiased; */
   font-family: boxicons;
 }

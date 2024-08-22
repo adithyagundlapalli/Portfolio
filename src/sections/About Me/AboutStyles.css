@@ -1,52 +1,62 @@
 .information {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .center-align {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  max-width: 90%;
+  width: 100%;
 }
 
 .heading {
-  margin: 0px;
-  margin-bottom: 50px;
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   color: var(--secondary-color);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 550;
 }
 
 .desc {
-  margin: 0px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   color: var(--text-color);
-  letter-spacing: 1.5px;
-  line-height: 2;
-  font-size: 20px;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+  font-size: 1.25rem;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 1rem;
 }
 
 .tabs {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .t {
-  margin: 50px;
-  font-size: 20px;
+  margin: 3rem;
+  font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   color: var(--text-color);
 }
 
 .tab-contents {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: none;
 }
 
@@ -56,16 +66,16 @@
 
 .tab-title {
   color: var(--secondary-color);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .skills-content {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .skills-content li {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   color: var(--text-color);
 }
