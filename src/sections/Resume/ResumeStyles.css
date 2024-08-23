@@ -5,7 +5,7 @@
   padding: 2rem 0;
   color: var(--text-color);
   margin: 0 2rem;
-  margin-top: 2.2rem;
+  margin-top: 4rem;
 }
 
 .resume-header {
@@ -37,7 +37,7 @@
 .resume-list {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   margin: 0;
   padding: 0;
 }
@@ -84,7 +84,7 @@
 
 @media (min-width: 768px) {
   .resume-list {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./ResumeStyles.css"; // Import the external CSS file
 import Skills from "./Skills"; // Import the Skills component
 import WorkExperience from "./WorkExperience"; // Import the WorkExperience component
+import Projects from "./Projects"; // Import the Projects component
 
 export default function Resume() {
   const opentab = (event, tabname) => {
@@ -32,14 +33,14 @@ export default function Resume() {
       </div>
       <div className="list-container">
         <ul className="resume-list">
-          <li
+          {/* <li
             className="resume-item active-link" 
             onClick={(e) => opentab(e, "education")}
           >
             Education
-          </li>
+          </li> */}
           <li
-            className="resume-item"
+            className="resume-item active-link"
             onClick={(e) => opentab(e, "experience")}
           >
             Experience
@@ -58,20 +59,19 @@ export default function Resume() {
           </li>
         </ul>
       </div>
-      <div id="education" className="tab-contents active-tab">
+      {/* <div id="education" className="tab-contents active-tab">
         <h2>Education</h2>
         <p>
           I am currently pursuing a Bachelor's degree in Computer Science at
           the University of California, San Diego.
         </p>
       
-      </div>
-      <div id="experience" className="tab-contents">
+      </div> */}
+      <div id="experience" className="tab-contents  active-tab">
         <WorkExperience></WorkExperience>
       </div>
       <div id="projects" className="tab-contents">
-        <h2>Projects</h2>
-        <p>Details about projects go here.</p>
+        <Projects></Projects>
       </div>
       <div id="skills" className="tab-contents">
         <Skills></Skills>
