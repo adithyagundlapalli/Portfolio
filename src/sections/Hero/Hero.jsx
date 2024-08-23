@@ -18,10 +18,10 @@ export default function Component() {
               <div className="description">
                 <p className="hi">Hi, my name is</p>
                 <h1 className="name">Adithya Gundlapalli.</h1>
-                <p>
-                  {`I am an aspiring student studying Computer Science at the
+                <p className="about">
+                  I am an aspiring student studying Computer Science at the
 University of California, Santa Cruz. I have a focus in
-front-end development. I love programming and solving problems!`}
+front-end development. I love programming and solving problems!
                 </p>
               </div>
               <div className="hero-icons">

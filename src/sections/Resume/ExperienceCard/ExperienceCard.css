@@ -10,6 +10,7 @@
   font-size: 1.05rem;
   font-weight: 500;
   margin-bottom: 0.7rem;
+  color: white;
 }
 
 .work-duration {
@@ -20,6 +21,7 @@
   border-radius: 0.3rem;
   padding: 0.4rem 0.6rem;
   margin-bottom: 1.3rem;
+  color: white;
 }
 
 .work-experience-card ul li {
@@ -29,6 +31,7 @@
   margin-bottom: 0.5rem;
   margin-left: 1rem;
   position: relative;
+  color: white;
 }
 
 .work-experience-card ul li::after {

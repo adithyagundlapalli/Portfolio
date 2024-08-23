@@ -1,6 +1,7 @@
 #contact {
   padding: 0;
   margin: 200px auto;
+  margin-top: -1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,15 +55,16 @@
   color: var(--text-color);
   display: inline-block;
   margin-bottom: 30px;
+  transition: transform 0.5s;
 }
 
 .btn {
   padding: 13px;
   text-decoration: none;
-  background: rgb(18, 73, 159);
+  background: var(--secondary-color);
   border-radius: 10px;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .contact-right {
@@ -91,7 +93,7 @@
   border-radius: 10px;
   font-size: 20px;
   display: inline-block;
-  color: var(--text-color);
+  color: white;
   cursor: pointer;
 }
 
@@ -99,4 +101,9 @@
   color: var(--secondary-color);
   margin-top: 10px;
   display: block;
+}
+
+.social-icons a:hover {
+  color: var(--secondary-color);
+  transform: translateY(-5px);
 }

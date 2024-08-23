@@ -11,8 +11,8 @@ function App() {
   
   return (
     <>
-      <Hero></Hero>
       <Nav></Nav>
+      <Hero></Hero>
       <About></About>
       <Resume></Resume>
       <Contact></Contact>
