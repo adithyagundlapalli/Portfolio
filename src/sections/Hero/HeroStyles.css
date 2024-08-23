@@ -34,7 +34,7 @@ section.info {
   width: 80%;
   max-width: 270px;
   object-fit: cover;
-  box-shadow: var(--secondary-color) 0px 0px 90px;
+  box-shadow: var(--secondary-color) 0px 0px 50px;
 }
 
 @media (min-width: 768px) {

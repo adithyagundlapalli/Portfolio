@@ -9,7 +9,7 @@ export default function Contact() {
     <div id="contact">
       <div className="container">
         <div className="row">
-          <h1 className="sub-title">Contact Me</h1>
+          <h1 className="sub-title">Feel Free to Contact Me!</h1>
           <div className="contact-left">
             <div className="gmail">
               <p>

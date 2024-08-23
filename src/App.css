@@ -6,6 +6,7 @@
   --secondary-color: #003893;
   --form-color: #262626;
   --card-color: #08112b;
+  --button-color: #003893;
 }
 
 [data-theme="light"] {
@@ -15,7 +16,8 @@
   --text-color: #000;
   --secondary-color: #0d92ff;
   --form-color: #e7e7e7;
-  --card-color: #0d92ff;
+  --card-color: #e7e7e7;
+  --button-color: #0d92ff;
 }
 
 body {
