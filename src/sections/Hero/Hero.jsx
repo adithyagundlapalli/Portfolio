@@ -1,6 +1,8 @@
 import React from "react";
 import "./HeroStyles.css";
 import 'boxicons/css/boxicons.min.css'; // Import the Boxicons CSS
+import profilePic from "../../assets/profilepic.png";
+
 
 
 export default function Component() {
@@ -12,7 +14,7 @@ export default function Component() {
             <img
               className="pfp"
               alt="profile picture"
-              src="https://adithyagundlapalli.github.io/personalportfolio/img/profilepic.png"
+              src={profilePic}
             />
             <div className="intro">
               <div className="description">

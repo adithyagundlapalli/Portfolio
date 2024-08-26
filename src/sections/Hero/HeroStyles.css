@@ -20,9 +20,8 @@ section.info {
 @media (min-width: 768px) {
   section.info {
     flex-direction: row;
-    justify-content: flex-end;
     text-align: left;
-    padding: 10% 15%;
+    padding: 10% 20%;
     margin-top: 7rem; /* Adjusted margin for larger screens */
   }
 }
@@ -123,4 +122,13 @@ section.info {
   display: inline-block;
   text-rendering: auto;
   font-family: boxicons;
+}
+
+@media (min-width: 769px) {
+  section.info {
+    gap: 5rem;
+  }
+  .intro {
+    margin-top: 5rem;
+  }
 }

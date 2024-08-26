@@ -4,7 +4,7 @@ import 'boxicons/css/boxicons.min.css'; // Import the Boxicons CSS
 
 
 
-const ProjectsCard = ({ title, des, src }) => {
+const ProjectsCard = ({ title, des, src, link}) => {
   return (
     <div className="projects-card">
       <div className="projects-card-img-wrapper">
@@ -20,7 +20,7 @@ const ProjectsCard = ({ title, des, src }) => {
             <h3 className="projects-card-title">{title}</h3>
             <div className="projects-card-icons">
               <span className="projects-card-icon">
-              <i className="bx bxl-github" />
+              <a href={link} target="_blank"><i className="bx bxl-github" /></a>
               </span>
             </div>
           </div>
