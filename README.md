@@ -2,6 +2,7 @@ Adithya's Personal Portfolio
 
 Welcome to my personal portfolio! This website is a showcase of my skills, projects, and experience in web development and computer science. Built using React, the portfolio highlights my journey in the tech industry, from my early days in programming to my recent professional work.
 
+
 Features
 
 Responsive Design: The portfolio is fully responsive, ensuring a seamless experience on any device.
@@ -9,11 +10,13 @@ Dynamic Theming: Includes light and dark mode options, allowing users to switch 
 Smooth Navigation: Intuitive and smooth scrolling between sections, providing easy access to my work and background.
 Interactive Components: Various interactive elements, such as project sliders and hover effects, showcase my web development skills.
 
+
 Technologies Used
 
 React.js: The core framework used for building the portfolio.
 CSS: External CSS for styling and ensuring responsive design.
 JavaScript: For adding interactivity and dynamic features.
+
 
 Sections
 
@@ -24,6 +27,7 @@ Skills: A list of the technical skills and tools I’m proficient with.
 Work Experience: Information on my professional experience, including my internship at Intern Protege.
 Contact: A form for visitors to get in touch with me directly.
 
+
 Getting Started
 
 Clone the repository to your local machine.
@@ -33,6 +37,7 @@ cd portfolio
 npm install
 Start the development server.
 npm run dev
+
 
 Customization
 
