@@ -5,6 +5,40 @@ import 'boxicons/css/boxicons.min.css'; // Import the Boxicons CSS
 
 
 export default function Contact() {
+
+  
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "f9dd2142-3a2e-4a7b-a801-e738d8f38497");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+
+  if (res.success) {
+    document.getElementById("msg").textContent = "message sent and will get back to you soon!";
+    event.target.reset();
+    setTimeout(() => {
+      document.getElementById("msg").textContent = "";
+    }, 5000);
+  }
+};
+
+
+  
+
   return (
     <div id="contact">
       <div className="container">
@@ -15,13 +49,13 @@ export default function Contact() {
               <p>
                 <a
                   className="gmail-icon"
-                  href="mailto:adithya.3035@gmail.com"
+                  href="mailto:adithyagundlapalli1@gmail.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="bx bxs-paper-plane" />
                 </a>
-                {"adithya.3035@gmail.com"}
+                {"adithyagundlapalli1@gmail.com"}
               </p>
             </div>
             <div className="social-icons">
@@ -63,7 +97,7 @@ export default function Contact() {
             </a>
           </div>
           <div className="contact-right">
-            <form name="submit-to-google-sheet">
+            <form onSubmit={onSubmit} name="submit-form">
               <input name="Name" type="text" required placeholder="your name" />
               <input name="Email" type="text" required placeholder="your email" />
               <textarea name="Message" required rows={6} placeholder="your message" />
