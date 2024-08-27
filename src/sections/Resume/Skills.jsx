@@ -5,7 +5,7 @@ import 'boxicons/css/boxicons.min.css'; // Import the Boxicons CSS
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container w-full border-b-[1px] border-b-black">
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           <li className="software-skill-inline html" name="html-5">

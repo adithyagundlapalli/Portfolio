@@ -57,7 +57,7 @@ const WorkExperience = () => {
 
 
   return (
-    <section id='work-exp' className="experience-container">
+    <section id='work-exp' className="experience-container w-full pb-10 border-b-[1px] border-b-black">
       <div className="experience-content">
 
         <Slider {...settings}>

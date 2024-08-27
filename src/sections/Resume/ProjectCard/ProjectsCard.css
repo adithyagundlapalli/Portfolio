@@ -1,6 +1,5 @@
 .projects-card {
   width: 100%;
-  padding: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   height: auto;
@@ -13,6 +12,7 @@
   background: var(--nav-color);
   transition: background 1s;
   border: 1px solid var(--secondary-color); /* Existing border */
+  margin-top: -1rem;
 }
 
 .projects-card:hover {
