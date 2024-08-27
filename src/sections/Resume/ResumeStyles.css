@@ -59,6 +59,7 @@
 
 .resume-item:hover {
   border-color: var(--secondary-color);
+  background-color: var(--background-color);
 }
 
 /* Style for the active tab */

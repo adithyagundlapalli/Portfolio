@@ -11,11 +11,6 @@ export default function Component() {
       <div id="home">
         <main>
           <section className="info">
-            <img
-              className="pfp"
-              alt="profile picture"
-              src={profilePic}
-            />
             <div className="intro">
               <div className="description">
                 <p className="hi">Hi, my name is</p>
@@ -53,6 +48,11 @@ front-end development. I love programming and solving problems!
               ></a>
               </div>
             </div>
+            <img
+              className="pfp"
+              alt="profile picture"
+              src={profilePic}
+            />
           </section>
         </main>
       </div>

@@ -34,7 +34,7 @@ function Nav() {
           <a onClick={handleMenuClick} href="#contact">CONTACT</a>
         </li>
         <li>
-        <img id="theme-icon" src={themeIcon} onClick={toggleTheme} alt="Theme icon"/>
+        <img id="theme-icon" src={themeIcon} onClick={toggleTheme } alt="Theme icon"/>
         </li>
       </ul>
     </nav>

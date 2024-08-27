@@ -13,7 +13,7 @@ export default function Component() {
           </p>
           <br />
           <p className="desc">Education: University of California, Santa Cruz: B.S. in Computer Science <br /> <br />Concentrations: Software Engineering <br />Related Coursework: Data Structures and Algorithms, Object-Oriented Programming, Programming Abstractions: Python, Computer Systems and Assembly Language and Lab, Discrete Mathematics </p>
-          
+          <br />
         </div>
       </div>
       </div>

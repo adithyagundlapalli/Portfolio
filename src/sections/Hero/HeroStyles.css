@@ -1,14 +1,8 @@
-/* Main styles */
-main {
-  margin: 0;
-  padding: 0;
-}
-
 /* Section info styles */
 section.info {
   margin: 0;
-  padding: 10%;
-  margin-top: 5rem; /* Added margin to avoid overlapping with the navbar */
+  padding: 0;
+  margin-top: 0; /* Remove the margin */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +15,7 @@ section.info {
   section.info {
     flex-direction: row;
     text-align: left;
-    padding: 10% 20%;
+    padding: 5% 10%;
     margin-top: 7rem; /* Adjusted margin for larger screens */
   }
 }
@@ -36,17 +30,21 @@ section.info {
   box-shadow: var(--secondary-color) 0px 0px 50px;
 }
 
+.pfp:hover {
+  /* transform: scale(1.2); */
+  box-shadow: var(--secondary-color) 0px 0px 150px;
+}
+
 @media (min-width: 768px) {
   .pfp {
-    width: 40%;
-    max-width: 300px;
+    max-width: 30%;
   }
 }
 
 /* Intro section styles */
 .intro {
   color: var(--text-color);
-  margin-top: 2rem;
+  margin-top: 7rem;
   line-height: 1.5;
   padding-bottom: 5%;
 }
@@ -54,19 +52,31 @@ section.info {
 @media (min-width: 768px) {
   .intro {
     margin-left: 2rem;
-    margin-top: 0;
+  }
+
+  .description .about {
+    margin-right: 100px;
   }
 }
+
+/* @media (max-width: 1435px) {
+  .description .about {
+    font-size: 1rem;
+  }
+
+  .description .name {
+    font-size: 1.25rem;
+  }
+} */
 
 /* Description styles */
 .description .hi {
   font-size: 1.5rem;
   padding-bottom: 1rem;
-  padding-top: 2rem;
 }
 
 .description .name {
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
   color: var(--secondary-color);
 }
@@ -77,14 +87,17 @@ section.info {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1435px) {
   .description .hi {
-    font-size: 2rem;
-    padding-top: 0;
+    font-size: 2.5rem;
   }
 
   .description .name {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+
+  .description .about {
+    font-size: 1.5rem;
   }
 }
 
@@ -126,7 +139,7 @@ section.info {
 
 @media (min-width: 769px) {
   section.info {
-    gap: 5rem;
+    gap: 6rem;
   }
   .intro {
     margin-top: 5rem;
