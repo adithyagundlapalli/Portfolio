@@ -55,10 +55,18 @@
   padding: 13px;
   text-decoration: none;
   background: var(--secondary-color);
+  color: white;
   border-radius: 10px;
   display: inline-block;
-  color: white;
   margin-top: 5px; /* Add space between resume button and form */
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+.btn2:hover {
+  transform: translateY(-5px);
 }
 
 .contact-right input,

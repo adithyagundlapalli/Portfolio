@@ -93,7 +93,7 @@ export default function Contact() {
                 <i className="bx bxl-twitter" />
               </a>
             </div>
-            <a className="btn" download href={resume}>
+            <a className="btn" target={"_blank"} href={resume}>
               Download Resume
             </a>
           </div>
