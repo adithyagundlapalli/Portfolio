@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactStyles.css"; // Import the CSS file
 import 'boxicons/css/boxicons.min.css'; // Import the Boxicons CSS
+import resume from "../../assets/Adithya_Gundlapalli_Resume.pdf";
 
 
 
@@ -53,7 +54,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="bx bxs-paper-plane" />
+                  <i id="plane" className="bx bxs-paper-plane" />
                 </a>
                 {"adithyagundlapalli1@gmail.com"}
               </p>
@@ -92,7 +93,7 @@ export default function Contact() {
                 <i className="bx bxl-twitter" />
               </a>
             </div>
-            <a className="btn" href="https://adithyagundlapalli.github.io/personalportfolio/">
+            <a className="btn" download href={resume}>
               Download Resume
             </a>
           </div>
