@@ -8,6 +8,9 @@ function Nav() {
   const { theme, toggleTheme } = useTheme();
   const themeIcon = theme === 'dark' ? sun : moon;
   const [menuOpen, setMenuOpen] = useState(false);
+  const handleMenuClick = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav className="header">
@@ -19,16 +22,16 @@ function Nav() {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-        <a href="#home">HOME</a>
+        <a onClick={handleMenuClick} href="#home">HOME</a>
         </li>
         <li>
-        <a href="#about">ABOUT</a>
+        <a onClick={handleMenuClick} href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#portfolio">PORTFOLIO</a>
+          <a onClick={handleMenuClick} href="#portfolio">PORTFOLIO</a>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <a onClick={handleMenuClick} href="#contact">CONTACT</a>
         </li>
         <li>
         <img id="theme-icon" src={themeIcon} onClick={toggleTheme} alt="Theme icon"/>
