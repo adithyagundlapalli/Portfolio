@@ -20,10 +20,10 @@ export default function Skills() {
           <i class='bx bxl-javascript' ></i>
             <p>JavaScript</p>
           </li>
-          <li className="software-skill-inline jq" name="JQuery">
+          {/* <li className="software-skill-inline jq" name="JQuery">
           <i class='bx bxl-jquery' ></i>
             <p>JQuery</p>
-          </li>
+          </li> */}
           <li className="software-skill-inline react" name="React">
           <i class='bx bxl-react' ></i>
             <p>React</p>
@@ -36,15 +36,23 @@ export default function Skills() {
           <i class='bx bxl-nodejs' ></i>
             <p>Node JS</p>
           </li>
+          <li className="software-skill-inline angular" name="angular">
+          <i class='bx bxl-angular' ></i>
+            <p>Angular</p>
+          </li>
+          <li className="software-skill-inline typescript" name="typescript">
+          <i class='bx bxl-typescript'></i>
+            <p>TypeScript</p>
+          </li>
           <li className="software-skill-inline java" name="Java">
           <i class='bx bxl-java' ></i>
             <p>Java</p>
           </li>
          
-          <li className="software-skill-inline cplus" name="C/C++">
+          {/* <li className="software-skill-inline cplus" name="C/C++">
           <i class='bx bxl-c-plus-plus' ></i>
-            <p>C/C++</p>
-          </li>
+            <p>C++</p>
+          </li> */}
           <li className="software-skill-inline git" name="git">
           <i class='bx bxl-git' ></i>
             <p>Git</p>

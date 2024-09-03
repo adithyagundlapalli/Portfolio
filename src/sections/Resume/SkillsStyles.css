@@ -95,3 +95,13 @@
 .software-skill-inline.github:hover p {
   color: #6e5494; /* GitHub - Purple */
 }
+
+.software-skill-inline.angular:hover i,
+.software-skill-inline.angular:hover p {
+  color: #dd0031;
+}
+
+.software-skill-inline.typescript:hover i,
+.software-skill-inline.typescript:hover p {
+  color: #3178c6;
+}
