@@ -40,21 +40,21 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "Learning Technologies Consultant at UCSC ITS",
+    title: "Learning Technologies Consultant @ UCSC",
     date: "May 2024 - Present",
     responsibilities: [
-      "Guided over 50 novice customers weekly in mastering essential software applications, ensuring smooth class operations and enhancing overall computer proficiency in labs.",
-      "Performed routine lab and library maintenance, supervising over 20 printers and ensuring 100% uptime by regularly cleaning equipment and performing necessary repairs.",
-      "Monitored computer labs with over 50 workstations, troubleshooting 95% of hardware issues on spot, safeguarding equipment, and implementing protocols reducing misuse and theft incidents.",
+      "Guided 50+ students weekly in mastering essential software applications, increasing lab efficiency by 20%, and reducing support requests by 15%.",
+      "Ensured 100% uptime of over 20 printers, projectors, and workstations by performing proactive repairs, reducing downtime incidents by 30%.",
+      "Improved lab security protocols, resulting in a 25% reduction in equipment misuse and theft incidents.",
     ],
   },
   {
-    title: "Web Development Intern at Intern Protege",
+    title: "Software Engineer Intern @ Intern Protege",
     date: "November 2023 - April 2024",
     responsibilities: [
-      "Contributed to the front-end development of the MVP, collaborated with a team of 7 experienced developers to create user-friendly features and establish a strong foundation for future engagement.",
-      "Leveraged Angular.js to implement 30% of the MVP’s user interface elements, translating Figma wireframes to actual code.",
-      "Resolved 50+ technical issues and bugs, leveraging Git version control and GitHub to efficiently manage group collaboration, ensuring optimal platform performance and streamlined project coordination.",
+      "Contributed to the MVP’s landing page using Angular and TypeScript, adding features like a step-by-step guide for employers and a statistics display, improving user engagement and onboarding.",
+      "Collaborated with UI/UX designers to translate Figma wireframes and mockups into actual code, resulting in a 20% reduction in design-to-development turnaround time.",
+      "Worked closely with a team of 7 experienced developers through regular meetings and 1:1s, improving project efficiency by 10% and accelerating milestone completion by 15% ahead of schedule.",
     ],
   },
 ];
